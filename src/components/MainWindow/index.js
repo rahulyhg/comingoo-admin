@@ -9,8 +9,8 @@ class MainWindow extends React.Component{
             <div>
                 <h1>Main window comes Here</h1>
                 <Nav />
-                <Main />
                 <button onClick={this.props.logoutFunc}>Logout</button>
+                <Main />
             </div>
         );
     }
