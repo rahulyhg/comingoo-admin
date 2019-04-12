@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
-class Profile extends Component {
+export class Profile extends Component {
   constructor(props){
     super(props);
 
@@ -194,4 +194,6 @@ class Profile extends Component {
   }
 }
 
-export default Profile;
+export default GoogleApiWrapper({
+    apiKey: 'AIzaSyCACJ7upFufBfb3E_hRf36gMygfVvqg1Vo'
+})(Profile);
