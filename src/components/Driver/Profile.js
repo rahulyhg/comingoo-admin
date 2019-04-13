@@ -115,7 +115,7 @@ export class Profile extends Component {
 
 
                                     <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
-                                    <h1>Riders History Given below</h1>
+                                    <h1>Drivers History Given below</h1>
                                     <hr class="my-2" />
                                     <div class="row history-margin">
                                         <div class="col-md-8 map-cavas">
